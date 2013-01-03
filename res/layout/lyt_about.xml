@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    android:orientation="vertical" >
+    
+    <ImageView 
+        android:src="@drawable/ic_phonebuy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/lblImage"/>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblDeveloper"
+        style="@style/PhonebuyTextTitleAppearance"/>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblDeveloperInfo"
+        style="@style/PhonebuyTextAppearance"
+        android:paddingTop="5dp"
+        android:paddingRight="7dp"/>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/PhonebuyTextTitleAppearance"
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblContact" />
+
+        <TextView
+            style="@style/PhonebuyTextAppearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblContactInfo" />
+        
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblTechnicalCharacteristics"
+        style="@style/PhonebuyTextTitleAppearance"
+        android:paddingTop="7dp" />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblTechnicalCharacteristicsInfo"
+        style="@style/PhonebuyTextAppearance"
+        android:paddingTop="5dp"
+        android:paddingRight="7dp"/>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblRequirements"
+        style="@style/PhonebuyTextTitleAppearance"
+        android:paddingTop="5dp"/>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblRequirementsInfo"
+        style="@style/PhonebuyTextAppearance"
+        android:paddingTop="5dp"
+        android:paddingRight="7dp"/>
+
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblFunctionality"
+        style="@style/PhonebuyTextTitleAppearance"
+        android:paddingTop="5dp"/>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblFunctionalityInfo"
+        style="@style/PhonebuyTextAppearance"
+        android:paddingTop="5dp"
+        android:paddingRight="7dp"/>
+    
+</LinearLayout>

@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">phonebuy</string>
+    <string name="title_app">phonebuy</string>
+    
+    <!-- FrmInitial -->
+	
+	<string name="lblImage"></string>
+	<string name="lblMakeList">crear lista     </string>
+	<string name="lblRecord">historial</string>
+	<string name="lblLoadCart">cargar carrito</string>
+	<string name="lblViewList">ver listas</string>
+	<string name="lblAboutPhonebuy">acerca de phonebuy</string>
+	
+	<!-- FrmScanBarcode -->
+	
+	<string name="lblHintCodebar">introduzca el código de barra..</string>
+	
+	<!-- FrmAbout -->
+	
+	<string name="lblTtileAbout">About Phonebuy</string>
+	<string name="lblDeveloper">Desarrollador</string>
+	<string name="lblDeveloperInfo">Técnico Programador Anzawa, Daniel José.</string>
+	<string name="lblContact">Contacto</string>
+	<string name="lblContactInfo">danielanzawa@gmail.com</string>
+	<string name="lblTechnicalCharacteristics">Caracerístiacas Técnicas</string>
+	<string name="lblTechnicalCharacteristicsInfo">Phonebuy es un aplicativo móvil desarrollado con tecnología Android.</string>
+	<string name="lblRequirements">Requerimientos</string>
+	<string name="lblRequirementsInfo">• Versión de Android V2.3 o superior.
+\n• Instalar app Barcode Scanner de ZXing Team.</string>
+	<string name="lblFunctionality">Funcionalidad</string>
+	<string name="lblFunctionalityInfo">• Realizar lista de compras.
+\n• Ver historial de compras.
+\n• Gestionar carrito de compras.
+\n• Ver lista de compras.
+\n\nPhonebuy nos ayuda a realizar las compras, confeccionando una lista de compras, la cual puede ser modificada y una vez finalizada la compra podremos visualizar un resumen de la misma.</string>
+	<string name="lblSteps">Pasos</string>
+	<string name="lblStepsInfo">1- Crear lista de compra (opcional). 
+2- Cargar carrito, está sección consiste en utilizar el lector de código de barras de la app para poder registrar el producto y finalmente cargar su precio.
+3- En la misma sección de cargar carrito se puede visualizar la lista de productos, así como dar por finalizada la carga y ver un resumen de la compra realizada.
+	</string>
+	
+</resources>

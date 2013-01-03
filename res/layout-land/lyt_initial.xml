@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    android:orientation="vertical" >
+    
+    <ImageView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_phonebuy_logo_land"
+        android:contentDescription="@string/lblImage"
+        android:paddingTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/btnMakeList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/ic_make_list"
+            android:text="@string/lblMakeList"
+            android:textColor="#0050FF" 
+            />
+
+        <Button
+            android:id="@+id/btnInventory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/ic_record"
+            android:text="@string/lblRecord"
+            android:textColor="#0050FF" />
+        
+         <Button
+            android:id="@+id/btnLoadcart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/ic_load_cart"
+            android:text="@string/lblLoadCart"
+            android:textColor="#0050FF" 
+            android:onClick="btnLoadCartSetOnClickListener"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp" >
+
+        <Button
+            android:id="@+id/btnViewList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/ic_view_list"
+            android:paddingLeft="20dp"
+            android:text="@string/lblViewList"
+            android:textColor="#0050FF" />
+        
+        <Button
+	        android:id="@+id/btnAbout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@null"
+	        android:drawableTop="@drawable/ic_about"
+	        android:text="@string/lblAboutPhonebuy"
+	        android:textColor="#0050FF" 
+	        android:paddingLeft="15dp"
+	        android:layout_gravity="left"
+            android:layout_weight="1"/>
+        
+        <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/ic_by_danicode_logo"
+	       	android:layout_gravity="left"
+            android:layout_weight="1"
+	        android:contentDescription="@string/lblImage"
+	        android:paddingBottom="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

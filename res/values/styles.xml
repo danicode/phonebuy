@@ -1,0 +1,47 @@
+<resources>
+
+    <style name="PhonebuyTheme" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@color/phonebuy_background</item>
+        <item name="android:textAppearance">@style/PhonebuyTextAppearance</item>
+    </style>
+
+    <style name="PhonebuyTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/phonebuy_text_color</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:paddingLeft">7dp</item>
+    </style>
+    
+    <style name="PhonebuyTextTitleAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/phonebuy_text_color</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="PhonebuyTextPasswordAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/phonebuy_text_password_color</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:listSelector">@android:drawable/list_selector_background</item>
+    </style>
+    
+    <style name="PhonebuyTextPasswordLandAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/phonebuy_text_password_color</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:visibility">invisible</item>
+    </style>          
+
+    <style name="ListView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/phonebuy_item_background</item>
+        <item name="android:cacheColorHint">@color/phonebuy_item_background</item>
+        <item name="android:listSelector">@drawable/list_selector</item>
+    </style>
+
+</resources>

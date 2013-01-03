@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">phonebuy</string>
+    <string name="title_app">phonebuy</string>
+    
+	<!-- FrmInitial -->
+	
+	<string name="lblImage"></string>
+	<string name="lblMakeList">make list    </string>
+	<string name="lblRecord">record</string>
+	<string name="lblLoadCart">    load cart</string>
+	<string name="lblViewList">view lists</string>
+	<string name="lblAboutPhonebuy">about phonebuy</string>
+	
+	<!-- FrmScanBarcode -->
+	
+	<string name="lblHintCodebar">enter the bar code..</string>
+	
+	<!-- FrmAbout -->
+	
+	<string name="lblTtileAbout">Acerca de Phonebuy</string>
+	<string name="lblDeveloper">Developer</string>
+	<string name="lblDeveloperInfo">Technical Programmer Anzawa, Daniel José.</string>
+	<string name="lblContact">Contact</string>
+	<string name="lblContactInfo">danielanzawa@gmail.com</string>
+	<string name="lblTechnicalCharacteristics">Technical characteristics</string>
+	<string name="lblTechnicalCharacteristicsInfo">Phonebuy is a mobile app developed with Android technology.</string>
+	<string name="lblRequirements">Requirements</string>
+	<string name="lblRequirementsInfo">• Android version V2.3 or higher.
+\n• Install app Barcode Scanner ZXing Team.</string>
+	<string name="lblFunctionality">Functionality</string>
+	<string name="lblFunctionalityInfo">Phonebuy used for shopping, preparing a shopping list, which can be modified and after the purchase can display an overview.
+\n\n• Make shopping list.
+\n• View your purchase history.
+\n• Manage shopping cart.
+\n• View shopping list.</string>
+	<string name="lblSteps">Steps</string>
+	<string name="lblStepsInfo">1 - Create shopping list (optional).
+2 - Load cart is a section, is to use the barcode reader the app to register the product and its price finally loaded.
+3 - In the same section is loaded cart can display the list of products and terminate the load and see a summary of your purchase.
+	</string>
+
+</resources>
